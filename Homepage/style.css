@@ -6,7 +6,47 @@
 
 .hero {
 	height: 100vh;
-	background: url('./Images/Cloud_computuing.png') center/cover;
+	background: url('./Images/Layer_0.png') center/cover;
+	position: relative;
+}
+
+.laptop {
+	position: absolute;
+	top: 110px;
+	left: 100px;
+	width: 480px;
+}
+
+.layer1 {
+	position: absolute;
+	top: 135px;
+	left: 225px;
+	width: 265px;
+}
+
+.layer2 {
+	position: absolute;
+	top: 135px;
+	left: 315px;
+	width: 270px;
+}
+
+.layer3 {
+	position: absolute;
+	top: 135px;
+	left: 400px;
+	width: 270px;
+}
+
+.name {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.Words {
+	width: 60px;
 }
 
 .main {
@@ -15,18 +55,18 @@
 	background-size: 210%;
 	background-attachment: fixed;
 	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-content: center;
-    position: relative;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: center;
+	position: relative;
 }
 
 .main img {
-    position: relative;
-    left: 180px;
+	position: relative;
+	left: 180px;
 	width: 30%;
 }
 
-.courses-container{
+.courses-container {
 	height: 80vh;
 	display: flex;
 	align-items: center;
@@ -34,20 +74,20 @@
 	background-color: grey;
 }
 
-.courses{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 80%;
+.courses {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: 80%;
 	width: 80%;
 	border-radius: 50px;
 }
 
 .course {
-width: 100%;
-height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
-.empty{
+.empty {
 	background-color: white;
 }
