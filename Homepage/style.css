@@ -124,3 +124,131 @@
 .empty {
 	background-color: white;
 }
+
+
+.section3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgb(0, 255, 242), rgb(0, 38, 255));
+}
+
+.grid {
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 3.5%;
+  grid-column-gap: 2%;
+}
+
+.gridfr {
+  /* background: aqua; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 25px;
+}
+
+#grid1 {
+  display: flex;
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/82/08/web-development-neon-banner-design-vector-26918208.jpg);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+#grid2 {
+  background-image: url(https://www.cloudsavvyit.com/p/uploads/2021/07/f5932bc2.jpg);
+}
+
+#grid3 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHUGMVSFOP3MUg48K0rMsvjOhvG7Wf7br2vw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* backdrop-filter: blur(9px);
+	-webkit-backdrop-filter: blur(8px); */
+}
+
+#grid4 {
+  background-image: url(https://www.cloudsavvyit.com/p/uploads/2021/07/f5932bc2.jpg);
+}
+
+#grid5 {
+  background-image: url(https://www.cloudsavvyit.com/p/uploads/2021/07/f5932bc2.jpg);
+}
+
+#grid6 {
+  background: url(https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gridfr h4 {
+  display: block;
+  margin-bottom: 30px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.gridfr a {
+  position: relative;
+  background: purple;
+  color: white;
+  display: block;
+  border: none;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 13px;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gridfr a::after {
+  content: " ";
+  background: rgb(241, 241, 241);
+  position: absolute;
+  padding-top: 210%;
+  padding-left: 200%;
+  margin-top: -68%;
+  margin-left: -124px;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.gridfr a:hover::after {
+  padding: 0%;
+  margin: 0%;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.grid:hover .gridfr {
+  filter: blur(10px);
+  transform: scale(0.9);
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.grid .gridfr:hover {
+  filter: blur(0px);
+  transform: scale(1);
+  opacity: 1;
+  transition: 0.3s;
+}
