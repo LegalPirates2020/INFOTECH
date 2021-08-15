@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/phoenix-rising');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,10 +7,19 @@
 }
 
 .hero {
+	background: linear-gradient(200deg, #59c173, #a17fe0, #5d26c1);
+	/* background-size: 200%; */
+	background-position: bottom left;
 	height: 100vh;
-	background: url('./Images/Layer_0.png') center/cover;
 	position: relative;
+	/* animation: bg 5s alternate infinite; */
 }
+/* 
+@keyframes bg {
+	100% {
+		background-position: top right;
+	}
+} */
 
 .laptop {
 	position: absolute;
@@ -40,17 +51,39 @@
 
 .name {
 	position: absolute;
-	right: 0;
+	right: 150px;
 	top: 50%;
 	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
 }
 
 .Words {
-	width: 60px;
+	width: 600px;
+}
+
+.name-backdrop {
+	position: absolute;
+	right: 450px;
+	color: rgba(120, 252, 197, 0.15);
+	top: 46%;
+	transform: translateY(-50%) scale(14);
+	font-family: 'Phoenix Rising', sans-serif;
+	font-size: xx-large;
+	z-index: 1;
+	mix-blend-mode: color-dodge;
+}
+
+.word-backdrop {
+	width: 400px;
+	height: 300px;
+	mix-blend-mode: overlay;
 }
 
 .main {
-	height: 60vh;
+	height: 40vh;
 	background: url('./Images/spacesbg.png') center;
 	background-size: 210%;
 	background-attachment: fixed;
@@ -63,7 +96,7 @@
 .main img {
 	position: relative;
 	left: 180px;
-	width: 30%;
+	width: 25%;
 }
 
 .courses-container {
