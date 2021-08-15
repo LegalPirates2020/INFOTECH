@@ -13,7 +13,7 @@
 
 .title {
   
-  
+
  color: rgb(255, 255, 255);
  font-size: 4rem;
  z-index: 5;
@@ -73,7 +73,7 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
  justify-items: center;
  /* align-items: center; */
  grid-row-gap: 10vh;
- margin-bottom: 20px;
+ margin-bottom: 7.25rem;
  
 
 }
@@ -106,8 +106,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
  position: relative;
  grid-area: box1;
  height: 35vh;
- width: 30vh;
- background-color: steelblue;
+ width: 14.5vw;
+ background-color: #B980F0;
  transition: 300ms ease-in-out;
  
 }
@@ -152,8 +152,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
 
  grid-area: box2;
  height: 35vh;
- width: 30vh;
- background-color: rgb(40, 186, 223);
+ width: 14.5vw;
+ background-color: #FE9898;
  transition: 300ms ease-in-out;
  transition: 300ms ease-in-out;
  
@@ -164,8 +164,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
 
  grid-area: box3;
  height: 35vh;
- width: 30vh;
- background-color: rgb(196, 199, 41);
+ width: 14.5vw;
+ background-color: #FFAA4C;
  transition: 300ms ease-in-out;
 }
 .box4{
@@ -174,8 +174,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
 
  grid-area: box4;
  height: 35vh;
- width: 30vh;
- background-color: rgb(235, 124, 33);
+ width: 14.5vw;
+ background-color: #8E2657;
  transition: 300ms ease-in-out;
 }
 .box5{
@@ -184,8 +184,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
 
  grid-area: box5;
  height: 35vh;
- width: 30vh;
- background-color: rgb(167, 69, 187);
+ width: 14.5vw;
+ background-color: #00C1D4;
  transition: 300ms ease-in-out;
 }
 .box6{
@@ -194,8 +194,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
 
  grid-area: box6;
  height: 35vh;
- width: 30vh;
- background-color: steelblue;
+ width: 14.5vw;
+ background-color: #7FC8A9;
  transition: 300ms ease-in-out;
 }
 
@@ -203,6 +203,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
  margin-top: 2rem;
  margin-left: auto;
  margin-right: auto;
+
+
  background: url('./resources/pavan.png') center/cover;
  width: 14vh;
  height: 14vh;
@@ -219,12 +221,13 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
  position: absolute;
  width: 100%;
  bottom: 0;
- height: 24vh;
+ height: 24vh;      
  background-color: white;
  z-index: 0;
  transition: all 400ms ease-out ;
  text-align: left;
   /* padding-bottom: 1vh;  */
+
  padding-right: 20px;
  padding-left: 20px;
  
@@ -232,4 +235,8 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
  
  
 
+}
+.footer {
+  background-color: rgb(44, 43, 43);
+  height: 40vh;
 }
