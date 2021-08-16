@@ -1,8 +1,4 @@
 @import url('http://fonts.cdnfonts.com/css/phoenix-rising');
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-=======
->>>>>>> 7517e57aec916fa8b8b4224c2ad1f8b168d5ba98
 
 * {
 	padding: 0;
@@ -162,10 +158,6 @@
 	font-size: xx-large;
 	z-index: 1;
 	mix-blend-mode: color-dodge;
-<<<<<<< HEAD
-	cursor: default;
-=======
->>>>>>> 7517e57aec916fa8b8b4224c2ad1f8b168d5ba98
 }
 
 .word-backdrop {
