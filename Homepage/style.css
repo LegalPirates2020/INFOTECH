@@ -1,75 +1,47 @@
 @import url('http://fonts.cdnfonts.com/css/phoenix-rising');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
-section {
-	height: 100vh;
-	scroll-snap-align: start;
-}
-
-.container {
-	scroll-snap-type: y mandatory;
-	overflow-y: scroll;
-	height: 100vh;
+.nav-container {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(255, 255, 255, 0.4) 60%,
+		rgba(255, 255, 255, 0)
+	);
 }
 
 .navbar {
 	display: flex;
-	align-items: center;
+	width: 90%;
+	height: 100%;
 	justify-content: space-between;
-	width: 100%;
-	height: 3.5rem;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	padding: 35px 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-	text-shadow: 1px 1px 2px white, 2px 2px 3px rgba(0, 0, 0, 1);
-}
-
-.logo-container {
-	margin-left: 6%;
-}
-
-.logo {
-	text-decoration: none;
-	color: white;
-	font-size: 1.7rem;
-	font-weight: 200;
-	letter-spacing: 2px;
-	transition: all 0.3s;
-}
-
-.logo span {
-	font-weight: 600;
-}
-
-.menu {
-	position: absolute;
-}
-
-.nav-container {
-	display: flex;
 	align-items: center;
-	justify-content: center;
-	margin-right: 6%;
+	font-weight: 500;
+	font-size: large;
 }
 
-.list-item {
-	padding: 10px;
+.navlink-container {
+	display: flex;
+	width: 30%;
+	align-items: center;
+	justify-content: space-around;
 	list-style-type: none;
 }
 
-.list-item a {
+.nav-link a {
 	text-decoration: none;
-	color: white;
-	transition: all 0.3s;
-	font-size: 20px;
+	color: inherit;
 }
 
 .hero {
@@ -132,6 +104,7 @@ section {
 	font-size: xx-large;
 	z-index: 1;
 	mix-blend-mode: color-dodge;
+	cursor: default;
 }
 
 .word-backdrop {
