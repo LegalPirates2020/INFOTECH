@@ -1,0 +1,242 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+ 
+}
+ /* .container {
+  background: rgb(26, 24, 24);
+ 
+ 
+}  */
+
+.title {
+  
+
+ color: rgb(255, 255, 255);
+ font-size: 4rem;
+ z-index: 5;
+ /* transform: translate(-50%,-50%); */
+ 
+}
+.quote {
+ display: flex;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ margin-top: 7rem;
+ margin-bottom: 7rem;
+ color: rgb(0, 0, 0);
+ z-index: 6;
+ 
+ font-size: 1.875rem;
+ text-align: center;
+}
+.img-1 {
+ position: relative;
+  display: flex;
+  
+ align-items: center;
+ justify-content: center;
+ background: url('https://www.citchennai.edu.in/wp-content/themes/cit/images/profile-bg.jpg') center/cover ;
+ background-attachment: fixed;
+ width: 100%;
+ height: 60vh;
+ 
+ 
+ 
+}
+.img-1::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ /* background-color: rgba(46, 115, 204, 0.3); */
+background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0.4));/*rgba(29, 38, 113, 0.4) */
+
+ z-index: 0;
+}
+
+.container-2 {
+ margin-top: 6rem;
+ position: relative; 
+ width: 70%;
+ left: 15%;
+ right: 15%;
+ display: grid;
+ grid-template-areas: 
+ "box1 box2 box3"
+ "box4 box5 box6";
+ justify-items: center;
+ /* align-items: center; */
+ grid-row-gap: 10vh;
+ margin-bottom: 7.25rem;
+ 
+
+}
+.border {
+
+ border-bottom: 5px solid rgb(40, 186, 223);
+ padding-bottom: 10px; 
+
+
+}
+.faculty-details {
+
+ text-align: center;
+
+
+ padding-left: 0px; 
+
+ 
+ 
+ 
+
+}
+.shadow {
+  box-shadow: 5px 2px 25px 0px rgba(0, 0, 0,0.2) ;
+}
+.box1{
+ 
+ font-size: 16px;
+ text-align: center;
+ position: relative;
+ grid-area: box1;
+ height: 35vh;
+ width: 14.5vw;
+ background-color: #B980F0;
+ transition: 300ms ease-in-out;
+ 
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover  {
+ transform: scale(1.05);
+ box-shadow: 5px 5px 50px 0px rgba(0, 0, 0,0.3);
+}
+ 
+ .box1:hover .details {
+  height: 0;
+  color: white;
+ }
+ .box2:hover .details {
+  height: 0;
+  color: white;
+ }
+
+ .box3:hover .details {
+  height: 0;
+  color: white;
+ }
+
+ .box4:hover .details {
+  height: 0;
+  color: white;
+ }
+
+ .box5:hover .details {
+  height: 0;
+  color: white;
+ }
+
+ .box6:hover .details {
+  height: 0;
+  color: white;
+ }
+
+
+.box2{
+ position: relative;
+ text-align: center;
+
+ grid-area: box2;
+ height: 35vh;
+ width: 14.5vw;
+ background-color: #FE9898;
+ transition: 300ms ease-in-out;
+ transition: 300ms ease-in-out;
+ 
+}
+.box3{
+ position: relative;
+ text-align: center;
+
+ grid-area: box3;
+ height: 35vh;
+ width: 14.5vw;
+ background-color: #FFAA4C;
+ transition: 300ms ease-in-out;
+}
+.box4{
+ position: relative;
+ text-align: center;
+
+ grid-area: box4;
+ height: 35vh;
+ width: 14.5vw;
+ background-color: #8E2657;
+ transition: 300ms ease-in-out;
+}
+.box5{
+ position: relative;
+ text-align: center;
+
+ grid-area: box5;
+ height: 35vh;
+ width: 14.5vw;
+ background-color: #00C1D4;
+ transition: 300ms ease-in-out;
+}
+.box6{
+ position: relative;
+ text-align: center;
+
+ grid-area: box6;
+ height: 35vh;
+ width: 14.5vw;
+ background-color: #7FC8A9;
+ transition: 300ms ease-in-out;
+}
+
+.img-container {
+ margin-top: 2rem;
+ margin-left: auto;
+ margin-right: auto;
+
+
+ background: url('./resources/pavan.png') center/cover;
+ width: 14vh;
+ height: 14vh;
+ position: relative;
+ border-radius: 100%;
+ z-index: 1;
+}
+
+.details {
+ 
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ position: absolute;
+ width: 100%;
+ bottom: 0;
+ height: 24vh;      
+ background-color: white;
+ z-index: 0;
+ transition: all 400ms ease-out ;
+ text-align: left;
+  /* padding-bottom: 1vh;  */
+
+ padding-right: 20px;
+ padding-left: 20px;
+ 
+
+ 
+ 
+
+}
+.footer {
+  background-color: rgb(44, 43, 43);
+  height: 40vh;
+}
