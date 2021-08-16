@@ -1,0 +1,89 @@
+
+/* fifth page */
+
+.docker
+{
+    height: 100vh;
+}
+
+.divpage
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagedocker
+{
+    background-color: #565a57;
+    width: 30%;
+    height: 27%;
+    margin: 5px;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.pagedocker img
+{
+    width: 300px;
+    height: 170px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: -75px;
+    z-index: 5;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+/* .pagedocker:hover img
+{
+    width: 100%;
+    height: 40%;
+} */
+
+.pagedocker:hover
+{
+    height: 60%;
+}
+
+.dockercontent
+{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    padding: 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.pagedocker:hover .dockercontent
+{
+    opacity: 1;
+}
+
+/* .dockercontent:hover
+{
+    opacity: 1;
+} */
+
+/* .imagedocker:hover, .dockercontent p:hover
+{
+    opacity: 1;
+} */
+.h2
+{
+    position: absolute;
+    top: 120px;
+    font-size: 30px;
+    background-color: #565a57;
+    z-index: 5;
+}
