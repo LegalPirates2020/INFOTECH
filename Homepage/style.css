@@ -1,22 +1,20 @@
-@import url("http://fonts.cdnfonts.com/css/phoenix-rising");
+@import url('http://fonts.cdnfonts.com/css/phoenix-rising');
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-section
-{
-    height: 100vh;
-    scroll-snap-align: start;
+section {
+	height: 100vh;
+	scroll-snap-align: start;
 }
 
-.container
-{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
+.container {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
 }
 
 .navbar {
@@ -82,64 +80,64 @@ section
 }
 
 .laptop {
-  position: absolute;
-  top: 110px;
-  left: 100px;
-  width: 480px;
+	position: absolute;
+	top: 110px;
+	left: 100px;
+	width: 480px;
 }
 
 .layer1 {
-  position: absolute;
-  top: 135px;
-  left: 225px;
-  width: 265px;
+	position: absolute;
+	top: 135px;
+	left: 225px;
+	width: 265px;
 }
 
 .layer2 {
-  position: absolute;
-  top: 135px;
-  left: 315px;
-  width: 270px;
+	position: absolute;
+	top: 135px;
+	left: 315px;
+	width: 270px;
 }
 
 .layer3 {
-  position: absolute;
-  top: 135px;
-  left: 400px;
-  width: 270px;
+	position: absolute;
+	top: 135px;
+	left: 400px;
+	width: 270px;
 }
 
 .name {
-  position: absolute;
-  right: 150px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  z-index: 2;
+	position: absolute;
+	right: 150px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
 }
 
 .Words {
-  width: 600px;
+	width: 600px;
 }
 
 .name-backdrop {
-  position: absolute;
-  right: 450px;
-  color: rgba(120, 252, 197, 0.15);
-  top: 46%;
-  transform: translateY(-50%) scale(14);
-  font-family: "Phoenix Rising", sans-serif;
-  font-size: xx-large;
-  z-index: 1;
-  mix-blend-mode: color-dodge;
+	position: absolute;
+	right: 450px;
+	color: rgba(120, 252, 197, 0.15);
+	top: 46%;
+	transform: translateY(-50%) scale(14);
+	font-family: 'Phoenix Rising', sans-serif;
+	font-size: xx-large;
+	z-index: 1;
+	mix-blend-mode: color-dodge;
 }
 
 .word-backdrop {
-  width: 400px;
-  height: 300px;
-  mix-blend-mode: overlay;
+	width: 400px;
+	height: 300px;
+	mix-blend-mode: overlay;
 }
 
 #shadow {
@@ -178,29 +176,29 @@ section
 }
 
 .courses-container {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: grey;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: grey;
 }
 
 .courses {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 80%;
-  width: 80%;
-  border-radius: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: 80%;
+	width: 80%;
+	border-radius: 50px;
 }
 
 .course {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .empty {
-  background-color: white;
+	background-color: white;
 }
 
 .section3 {
@@ -214,32 +212,32 @@ section
 }
 
 .grid {
-  position: absolute;
-  height: 85%;
-  width: 85%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 7%;
-  grid-column-gap: 4%;
+	position: absolute;
+	height: 85%;
+	width: 85%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 7%;
+	grid-column-gap: 4%;
 }
 
 .gridfr {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 35px;
-  border: 0.5px solid #00FFFF;
-  border-radius: 25px;
-  transition: 0.4s;
-  box-shadow: -13px 14px 24px 5px rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: -13px 14px 24px 5px rgba(0, 0, 0, 0.75);
-  overflow: hidden;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 35px;
+	border: 0.5px solid #00ffff;
+	border-radius: 25px;
+	transition: 0.4s;
+	box-shadow: -13px 14px 24px 5px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: -13px 14px 24px 5px rgba(0, 0, 0, 0.75);
+	overflow: hidden;
 }
 
 /* .gridfr:hover{
@@ -247,66 +245,66 @@ section
 } */
 
 .gridfr::before {
-  content: "";
-  position: absolute;
-  z-index: 4;
-  top: 0;
-  left: 0;
-  width: 40%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: skewX(45deg) translateX(580px);
-  transition: 0.6s;
+	content: '';
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	transform: skewX(45deg) translateX(580px);
+	transition: 0.6s;
 }
 
 .gridfr:hover::before {
-  transform: skew(45deg) translateX(-580px);
+	transform: skew(45deg) translateX(-580px);
 }
 
 .gridfr img {
-  position: absolute;
-  z-index: 0;
-  height: 100%;
-  width: 100%;
-  filter: blur(2px);
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	filter: blur(2px);
 }
 
 .gridfr h4 {
-  display: block;
-  z-index: 1;
-  margin-bottom: 30px;
-  font-family: "Roboto Slab", serif;
-  color: white;
+	display: block;
+	z-index: 1;
+	margin-bottom: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: white;
 }
 
 .gridfr a {
-  position: relative;
-  background: green;
-  z-index: 2;
-  color: white;
-  display: block;
-  border: none;
-  padding: 15px 21px 15px 21px;
-  text-decoration: none;
-  font-size: 25px;
-  text-align: center;
-  border-radius: 45% 0% 45% 0%;
-  -webkit-transition-duration: 0.7s;
-  transition-duration: 0.7s;
-  overflow: hidden;
-  cursor: pointer;
+	position: relative;
+	background: green;
+	z-index: 2;
+	color: white;
+	display: block;
+	border: none;
+	padding: 15px 21px 15px 21px;
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 45% 0% 45% 0%;
+	-webkit-transition-duration: 0.7s;
+	transition-duration: 0.7s;
+	overflow: hidden;
+	cursor: pointer;
 }
 
 .gridfr a::after {
-  content: " ";
-  background: rgb(241, 241, 241);
-  position: absolute;
-  padding-top: 210%;
-  padding-left: 200%;
-  margin-top: -68%;
-  margin-left: -124px;
-  opacity: 0;
-  transition: all 0.7s;
+	content: ' ';
+	background: rgb(241, 241, 241);
+	position: absolute;
+	padding-top: 210%;
+	padding-left: 200%;
+	margin-top: -68%;
+	margin-left: -124px;
+	opacity: 0;
+	transition: all 0.7s;
 }
 
 .gridfr a:hover::after {
@@ -342,23 +340,28 @@ footer {
 	line-height: 1.5rem;
 }
 
+.lp_logo {
+	width: 8%;
+	opacity: 0.6;
+}
+
 .grid11 {
-  filter: blur(10px);
-  transform: scale(0.9);
-  opacity: 0.7;
-  box-shadow: -13px 14px 25px 5px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -13px 14px 25px 2px rgba(0, 0, 0, 0.75);
-  transition: 0.6s;
+	filter: blur(10px);
+	transform: scale(0.9);
+	opacity: 0.7;
+	box-shadow: -13px 14px 25px 5px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: -13px 14px 25px 2px rgba(0, 0, 0, 0.75);
+	transition: 0.6s;
 }
 
 .gridhover {
-  filter: blur(0px);
-  transform: scale(1.1);
-  opacity: 1;
-  transition: 0.6s;
-  box-shadow: 13px -14px 24px 5px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 13px -14px 24px 5px rgba(0, 0, 0, 0.75);
-  cursor: pointer;
+	filter: blur(0px);
+	transform: scale(1.1);
+	opacity: 1;
+	transition: 0.6s;
+	box-shadow: 13px -14px 24px 5px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 13px -14px 24px 5px rgba(0, 0, 0, 0.75);
+	cursor: pointer;
 }
 
 /* .grid:hover .gridfr{
@@ -376,26 +379,26 @@ footer {
 } */
 
 .section5 {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+	position: relative;
+	height: 100vh;
+	width: 100%;
 }
 
 .example {
-  position: absolute;
-  z-index: 20;
-  height: 50%;
-  width: 50%;
-  background: url(./Images/event.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(20px);
+	position: absolute;
+	z-index: 20;
+	height: 50%;
+	width: 50%;
+	background: url(./Images/event.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(20px);
 }
 
 .example2 {
-  position: absolute;
-  z-index: 21;
-  height: 50%;
-  width: 50%;
-  backdrop-filter: blur(20px);
+	position: absolute;
+	z-index: 21;
+	height: 50%;
+	width: 50%;
+	backdrop-filter: blur(20px);
 }
