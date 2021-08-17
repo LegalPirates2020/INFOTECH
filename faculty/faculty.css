@@ -115,10 +115,10 @@ background: rgba(0, 0, 0,0.4);
  width: 70%;
  left: 15%;
  right: 15%;
- display: grid;
- grid-template-areas: 
+ /* display: grid; */
+ /* grid-template-areas: 
  "box1 box2 box3"
- "box4 box5 box6";
+ "box4 box5 box6"; */
  justify-items: center;
  /* align-items: center; */
  grid-row-gap: 10vh;
@@ -127,6 +127,28 @@ animation-name: cardanimation;
 animation-duration: 700ms;
 
  
+
+}
+.container-grid1 {
+  display: grid;
+  grid-template-areas: 
+ "box1 box2 box3"
+ "box4 box5 box6"; 
+  
+
+}
+.container-grid2 {
+  display: grid;
+  grid-template-areas: 
+ "box7 box8 box9"
+ "box10 box11 box12";
+
+}
+.container-grid3 {
+  display: grid;
+  grid-template-areas: 
+ "box13 box14 box15"
+ "box16 box17 box18";
 
 }
 
@@ -155,8 +177,8 @@ animation-duration: 700ms;
   box-shadow: 5px 2px 25px 0px rgba(0, 0, 0,0.2) ;
 }
 .box1{
- 
- font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+ font-size: 15px;
  text-align: center;
  position: relative;
  grid-area: box1;
@@ -166,53 +188,19 @@ animation-duration: 700ms;
  transition: 300ms ease-in-out;
  
 }
-.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover  {
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover,.box11:hover,.box12:hover,.box13:hover,.box14:hover,.box15:hover,.box16:hover,.box17:hover,.box18:hover  {
  transform: scale(1.05);
  box-shadow: 5px 5px 50px 0px rgba(0, 0, 0,0.3);
  
  
 }
  
- .box1:hover .details {
-  height: 0;
-  
-  
- }
- .box2:hover .details {
-  height: 0;
-
-  
- }
-
- .box3:hover .details {
-  height: 0;
-
-  
- }
-
- .box4:hover .details {
-  height: 0;
- 
-  
- }
-
- .box5:hover .details {
-  height: 0;
-
-  
- }
-
- .box6:hover .details {
-  height: 0;
-
-  
- }
-
 
 .box2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
  position: absolute;
  text-align: center;
-
  grid-area: box2;
  height: 320px;
  min-width: 280px;
@@ -222,6 +210,8 @@ animation-duration: 700ms;
  
 }
 .box3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
  position: relative;
  text-align: center;
  background-color: #FFAA4C;
@@ -232,6 +222,8 @@ animation-duration: 700ms;
  transition: 300ms ease-in-out;
 }
 .box4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
  position: relative;
  text-align: center;
  background-color: #8E2657;
@@ -242,6 +234,8 @@ animation-duration: 700ms;
  transition: 300ms ease-in-out;
 }
 .box5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
  position: relative;
  text-align: center;
  background-color: #00C1D4;
@@ -252,6 +246,8 @@ animation-duration: 700ms;
  transition: 300ms ease-in-out;
 }
 .box6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
  position: relative;
  text-align: center;
  background-color: #7FC8A9;
@@ -261,20 +257,383 @@ animation-duration: 700ms;
 
  transition: 300ms ease-in-out;
 }
+.box7{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #297F87;
+  grid-area: box7;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box8{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #96BAFF;
+  grid-area: box8;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box9{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #D54C4C;
+  grid-area: box9;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box10{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #F08FC0;
+  grid-area: box10;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box11{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #4C4C6D;
+  grid-area: box11;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box12{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #185ADB;
+  grid-area: box12;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box13{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #865439;
+  grid-area: box13;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box14{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #39A2DB;
+  grid-area: box14;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box15{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #C490E4;
+  grid-area: box15;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box16{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #01937C;
+  grid-area: box16;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box17{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #867AE9;
+  grid-area: box17;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
+ .box18{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #F9B208;
+  grid-area: box18;
+  min-height: 320px;
+  min-width: 280px;
+ 
+  transition: 300ms ease-in-out;
+ }
 
-.img-container {
+
+.img-container1 {
  margin-top: 2rem;
  margin-left: auto;
  margin-right: auto;
 
 
- background: url('./resources/pavan.png') center/cover;
+ background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/08/Murugn-Photo.jpg') top/cover;
  width: 130px;
  min-height: 130px;
  position: relative;
  border-radius: 100%;
  z-index: 1;
 }
+.img-container2 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png') center/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container3 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/03/shaik-umama.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container4 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/03/nebula-evanjulan-1.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container5 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2020/10/Nisha.jpeg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container6 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2021/02/Dr.Ganesamoorthy.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container7 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/08/Murugn-Photo.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container8 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png') center/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container9 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/03/shaik-umama.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container10 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2021/03/Paun-Dass.jpeg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container11 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2020/01/Brindha.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container12 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/03/vijilakshmi.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container13 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2021/03/Paun-Dass.jpeg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container14 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png') center/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }.img-container15 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/03/senthil-kumar-g.jpg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }.img-container16 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2021/08/Kamal.jpeg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }.img-container17 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.citchennai.edu.in/wp-content/uploads/2021/06/Dinesh.jpeg') top/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
+ .img-container18 {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+  background: url('https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png') center/cover;
+  width: 130px;
+  min-height: 130px;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+ }
 
 .details {
  

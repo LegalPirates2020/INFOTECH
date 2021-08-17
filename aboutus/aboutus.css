@@ -167,15 +167,43 @@ section {
 }
 .team-flex-main {
  height: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+  
 
 }
+.grid1 {
+  grid-area: team1;
+}
+.grid2 {
+  grid-area: team2;
+}
+.grid3 {
+  grid-area: team3;
+}
+.grid4 {
+  grid-area: team4;
+}
+.grid5 {
+  grid-area: team5;
+}
+.grid6 {
+  grid-area: team6;
+}
+
 .team {
+  padding-top: 50px;
   position: relative;
+  display: grid;
+  grid-template-areas: 
+  "team1 team2 team3"
+  "team4 team5 team6";;
+  grid-row-gap: 100px;
+  grid-column-gap: 80px;
   
-  display: flex;
+
   align-items: center;
   top: 30%;  
   margin-top: auto;
@@ -192,8 +220,8 @@ section {
   text-align: center;
   overflow: hidden;
   position: relative;
-  height: 240px;
-  width: 260px;
+  height: 230px;
+  width: 300px;
   margin: 0px 25px;
   padding: 30px;
    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0,0.2) ;
