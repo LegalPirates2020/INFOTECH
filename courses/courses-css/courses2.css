@@ -1,5 +1,18 @@
 /* 2nd page */
 
+.cyber-security
+{
+    background: url(https://media.istockphoto.com/photos/covid19-hacker-scam-picture-id1223049477?k=6&m=1223049477&s=612x612&w=0&h=6qzhT4colXLOB3Qox8m79fR7waumDoNY7JoqVcfJeo0=) center/cover;
+}
+
+.heading2
+{
+    font-size: 50px;
+    text-align: center;
+    color: #eee;
+    padding-top: 30px;
+}
+
 .align
 {
     display: flex;
@@ -12,9 +25,8 @@
 
 .layout
 {
-    width: 25%;
-    height: 30%;
-    background-color: #313131;
+    width: 30%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +36,9 @@
     transition: all 0.5s ease-in-out;
     border-radius: 8px;
     box-shadow: 2px 5px 10px black;
+    overflow: hidden;
 }
+
 .cyhead
 {
     margin-bottom: 20px;
@@ -48,13 +62,10 @@
 .eh .content
 {
     font-size: 25px;
-    /* width: 25%;
-    height: 30%; */
     text-align: center;
     padding: 10px;
-    background: #313131;
+    background: linear-gradient( 45deg, #008C81, #008B74, #008C81, #296073);
     color: #fff;
-    /* transition: all 0.5s ease-in-out; */
     border-radius: 8px;
     box-shadow: 2px 5px 10px black;
     position: absolute;
@@ -69,7 +80,7 @@
     height: 30%;
     text-align: center;
     padding: 15px;
-    background: #313131;
+    background: linear-gradient( 45deg, #008C81, #008B74, #008C81, #296073);
     color: #fff;
     border-radius: 8px;
     box-shadow: 2px 5px 10px black;
@@ -82,7 +93,6 @@
 {
     height: 70%;
     background-position: top;
-    /* background-size: contain; */
     background-repeat: none;
 }
 .layout:hover 

@@ -1,24 +1,23 @@
 /* 3rd page */
-
 .mobile
 {
+    background: linear-gradient(180deg ,#432581 ,#C493FF, #A178DF, #533391);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 0 9%;
     position: relative;
     padding-bottom: 40px;
-    background-color: rgb(13, 64, 131);
 }
 
 .heading3
 {
     position: absolute;
-    text-align: center;
     font-size: 40px;
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
+    color: #ffffff;
 }
 
 .flex1 img
@@ -77,13 +76,19 @@
     justify-content: center;
     text-align: center;
     padding: 17px;
-    color: #fff;
+    color: rgb(24, 23, 43);
     align-items: center;
     transform: rotateY(-180deg);
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    background-color: rgb(59,63,74);
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
+    border-radius: 10px;
+}
+.maimage img
+{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
 }
 
 .imagema
@@ -96,12 +101,15 @@
     background: #313131;
     background-repeat: no-repeat;
     display: block;
+    box-shadow: 5px 5px 10px black;
 }
+
 
 /* .card1:hover .text1  */
 .pega.hovering-text .text1
 {
     transform: rotateY(0deg);
+    box-shadow: 5px 5px 10px black;
     opacity: 1;
 }
 
@@ -109,12 +117,14 @@
 .pega.hovering-image .imagema
 {
     transform: rotateY(180deg);
+    box-shadow: 5px 5px 10px black;
     opacity: 0;
 }
 
 /* .card1:hover .text1  */
 .flutter.hovering-text .text1
 {
+    box-shadow: 5px 5px 10px black;
     transform: rotateY(0deg);
     opacity: 1;
 }
@@ -122,6 +132,7 @@
 /* .card1:hover .imagema  */
 .flutter.hovering-image .imagema
 {
+    box-shadow: 5px 5px 10px black;
     transform: rotateY(180deg);
     opacity: 0;
 }
@@ -130,12 +141,14 @@
 .dart.hovering-text .text1
 {
     transform: rotateY(0deg);
+    box-shadow: 5px 5px 10px black;
     opacity: 1;
 }
 
 /* .card1:hover .imagema  */
 .dart.hovering-image .imagema
 {
+    box-shadow: 5px 5px 10px black;
     transform: rotateY(180deg);
     opacity: 0;
 }
