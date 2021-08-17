@@ -44,61 +44,6 @@
 	color: inherit;
 }
 
-.navbar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
-	height: 3.5rem;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	padding: 35px 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-	text-shadow: 1px 1px 2px white, 2px 2px 3px rgba(0, 0, 0, 1);
-}
-
-.logo-container {
-	margin-left: 6%;
-}
-
-.logo {
-	text-decoration: none;
-	color: white;
-	font-size: 1.7rem;
-	font-weight: 200;
-	letter-spacing: 2px;
-	transition: all 0.3s;
-}
-
-.logo span {
-	font-weight: 600;
-}
-
-.menu {
-	position: absolute;
-}
-
-.nav-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-right: 6%;
-}
-
-.list-item {
-	padding: 10px;
-	list-style-type: none;
-}
-
-.list-item a {
-	text-decoration: none;
-	color: white;
-	transition: all 0.3s;
-	font-size: 20px;
-}
-
 .hero {
 	background: linear-gradient(200deg, #59c173, #a17fe0, #5d26c1);
 	background-position: bottom left;
