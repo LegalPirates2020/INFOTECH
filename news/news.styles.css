@@ -1,120 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
-	user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
 }
 
 .nav-container {
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	height: 4rem;
-	display: flex;
-	justify-content: center;
-	background: linear-gradient(
-		rgba(255, 255, 255, 0.4) 60%,
-		rgba(255, 255, 255, 0)
-	);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.4) 60%,
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .navbar {
-	display: flex;
-	width: 90%;
-	height: 100%;
-	justify-content: space-between;
-	align-items: center;
-	font-weight: 500;
-	font-size: large;
+  display: flex;
+  width: 90%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: large;
 }
 
 .navlink-container {
-	display: flex;
-	width: 30%;
-	align-items: center;
-	justify-content: space-around;
-	list-style-type: none;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 .nav-link a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .banner {
-	width: 100%;
-	height: 50vh;
-	background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/03/IOT-copy.jpg')
-		center/cover;
+  width: 100%;
+  height: 50vh;
+  background: url("https://www.citchennai.edu.in/wp-content/uploads/2019/03/IOT-copy.jpg")
+    center/cover;
 }
 
 .banner::after {
-	width: 100%;
-	height: 50vh;
-	content: '';
-	position: absolute;
-	z-index: 1;
-	background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 50vh;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-	position: absolute;
-	top: 3.5rem;
-	left: 50%;
-	transform: translateX(-50%);
+  position: absolute;
+  top: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.span1,
+.span2,
+.span3 {
+  position: absolute;
+  height: 6px;
+  width: 50px;
+  left: 50%;
+  top: 2.5rem;
+  transform: translateX(-50%);
+  background-color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+h1:hover .span1,
+.span1:hover {
+  width: 120px;
+  transition: 0.5s;
+}
+
+h1:hover .span2,
+.span2:hover {
+  width: 145px;
+  transition: 0.5s;
+}
+
+h1:hover .span3,
+.span3:hover {
+  width: 205px;
+  transition: 0.5s;
 }
 
 .feed-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	padding: 10%;
-	padding-left: 8%;
-	row-gap: 7%;
-	column-gap: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10%;
+  padding-left: 8%;
+  row-gap: 7%;
+  column-gap: 5%;
 }
 section {
-	background-color: #f4f3f1;
-	position: relative;
+  background-color: #f4f3f1;
+  position: relative;
+  padding-bottom: 3rem;
 }
 
 section:nth-of-type(3) {
-	background-color: #e6ddc6;
+  background-color: #e6ddc6;
+  padding-bottom: 2rem;
 }
 
 .feed-container div {
-	width: 25vw;
-	height: 40vh;
-	border-radius: 10px;
-	position: relative;
-	overflow: hidden;
-	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  width: 25vw;
+  height: 40vh;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
 }
 
 .feed-container div::after {
-	width: 25vw;
-	height: 40vh;
-	background-color: rgba(209, 76, 76, 0);
-	z-index: 1;
-	content: '';
-	position: absolute;
-	left: 0;
-	transition: all 0.5s ease-in-out;
+  width: 25vw;
+  height: 40vh;
+  background-color: rgba(209, 76, 76, 0);
+  z-index: 1;
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .feed-container div img {
-	width: 100%;
-	object-fit: cover;
-	transform: scale(1);
-	position: absolute;
-	z-index: 0;
-	transition: all 1.5s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  position: absolute;
+  z-index: 0;
+  transition: all 1.5s ease-in-out;
 }
 
-.feed-container div a {
+/* .feed-container div a {
 	opacity: 0;
 	position: absolute;
 	top: 50%;
@@ -133,48 +168,225 @@ section:nth-of-type(3) {
 .feed-container div a:hover {
 	background-color: #2b2b2b;
 	color: white;
+} */
+
+/* Button a */
+.button {
+  opacity: 0;
+  position: absolute;
+  display: inline-block;
+  padding: 12px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 2px;
+  background: rgb(233, 129, 44);
+  transition: 0.5s;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.button:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.button:focus {
+  border: none;
+  outline: none;
+}
+
+.button span {
+  display: block;
+  position: absolute;
+  background: rgb(255, 255, 255);
+}
+
+.button span:nth-child(1) {
+  left: 0;
+  z-index: 31;
+  bottom: 0%;
+  width: 2px;
+  height: 100%;
+  transform: scaley(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.button:hover span:nth-child(1) {
+  transform: scaley(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+.button span:nth-child(2) {
+  left: 0;
+  z-index: 31;
+  bottom: 0%;
+  width: 100%;
+  height: 2px;
+  transform: scalex(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.button:hover span:nth-child(2) {
+  transform: scalex(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.button span:nth-child(3) {
+  right: 0;
+  bottom: 0%;
+  width: 2px;
+  height: 100%;
+  transform: scaley(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+.button:hover span:nth-child(3) {
+  transform: scaley(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+.button span:nth-child(4) {
+  left: 0;
+  z-index: 31;
+  top: 0%;
+  width: 100%;
+  height: 2px;
+  transform: scalex(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+.button:hover span:nth-child(4) {
+  transform: scalex(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
 }
 
 .feed-container div:hover img {
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .feed-container div:hover::after {
-	background-color: rgba(0, 0, 0, 0.6);
-	backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
 }
 
 .feed-container div:hover a {
-	opacity: 1;
+  opacity: 1;
 }
 
 .hide1,
 .hide2,
 .hide3 {
-	display: none;
+  display: none;
 }
 
-.learn-more1,.learn-more2,.learn-more3 {
-	position: absolute;
-	bottom: 2.5rem;
-	left: 50%;
-	transform: translateX(-50%);
-	outline: none;
+.learn-more1,
+.learn-more2,
+.learn-more3 {
+  position: relative;
+  display: inline-block;
+  bottom: 2.5rem;
+  letter-spacing: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 40px;
+  outline: none;
+  color: whitesmoke;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
 }
+
+.btn::after {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: end;
+  content: "Load";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 4px;
+  height: 100%;
+  background: rgb(241, 120, 21);
+  transition: 0.5s ease-in-out;
+  transform: scale(0);
+  cursor: pointer;
+}
+
+.btn::before {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: end;
+  content: "More";
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 4px;
+  height: 100%;
+  background: rgb(241, 120, 21);
+  transition: 0.5s ease-in-out;
+  transform: scale(0);
+  cursor: pointer;
+}
+
+.btn:hover::after,
+.btn:hover::before {
+  width: 50%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.learn-more1:hover,
+.learn-more2:hover,
+.learn-more3:hover {
+  color: white;
+  background: rgb(241, 120, 21);
+  transition: 0.5s;
+  transition-delay: 0.4s;
+}
+
+/* .learn-more1:active,.learn-more2:active,.learn-more3:active {
+	outline: none;
+	border:none;
+}
+
+.learn-more1:focus,.learn-more2:focus,.learn-more3:focus {
+	outline: none;
+	border:none;
+}  */
 
 footer {
-	width: 100%;
-	height: 20vh;
-	background-color: #37393a;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: rgba(255, 255, 255, 0.6);
-	line-height: 1.5rem;
+  width: 100%;
+  height: 20vh;
+  background-color: #37393a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5rem;
 }
 
 .lp_logo {
-	width: 8%;
-	opacity: 0.6;
+  width: 8%;
+  opacity: 0.6;
 }

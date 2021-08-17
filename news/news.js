@@ -8,20 +8,20 @@ const learnMore3 = document.querySelector('.learn-more3');
 const handleClick1 = () => {
 	hides1.forEach((hide) => {
 		hide.style.display = 'block';
-		learnMore1.setAttribute('disabled', 'true');
+		learnMore1.style.display = "none";
 	});
 };
 
 const handleClick2 = () => {
 	hides2.forEach((hide) => {
 		hide.style.display = 'block';
-		learnMore2.setAttribute('disabled', 'true');
+		learnMore2.style.display = 'none'
 	});
 };
 
 const handleClick3 = () => {
 	hides3.forEach((hide) => {
 		hide.style.display = 'block';
-		learnMore3.setAttribute('disabled', 'true');
+		learnMore3.style.display = "none";
 	});
 };
