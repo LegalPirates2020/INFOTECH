@@ -17,6 +17,7 @@
  color: rgb(255, 255, 255);
  font-size: 4rem;
  z-index: 5;
+ font-family: 'Bebas Neue', cursive;
  /* transform: translate(-50%,-50%); */
  
 }
@@ -29,7 +30,7 @@
  margin-bottom: 7rem;
  color: rgb(0, 0, 0);
  z-index: 6;
- 
+ font-family: 'Josefin Sans', sans-serif;
  font-size: 1.875rem;
  text-align: center;
 }
@@ -39,7 +40,7 @@
   
  align-items: center;
  justify-content: center;
- background: url('https://www.citchennai.edu.in/wp-content/themes/cit/images/profile-bg.jpg') center/cover ;
+ background: url('https://th.bing.com/th/id/R.c02e754b290f335ba288be95a9b1ba32?rik=aJxhyEvc%2bpHRDw&riu=http%3a%2f%2fwww.earnmydegree.com%2fsites%2fall%2ffiles%2fpublic%2fimages%2fshutterstock_123383902.jpg&ehk=K14C50OSRkUjQI6TZ%2bTjJfd%2b%2fOfXH7g%2bx6IR62Adi58%3d&risl=&pid=ImgRaw&r=0https://www.citchennai.edu.in/wp-content/themes/cit/images/profile-bg.jpg') bottom/cover ;
  background-attachment: fixed;
  width: 100%;
  height: 60vh;
@@ -55,13 +56,63 @@
  height: 100%;
  width: 100%;
  /* background-color: rgba(46, 115, 204, 0.3); */
-background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0.4));/*rgba(29, 38, 113, 0.4) */
+/* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0.4)); */
+background: rgba(0, 0, 0,0.4);
 
  z-index: 0;
 }
+.btn {
+  position: relative;
+  display: inline-flex;
+  width: 28vw;
+  height: 4vh;
+  left: 36vw;
+  right: 35vw;
+  margin-top: 2.5cm;
+  margin-bottom: 1cm;
+  
+}
+.color {
+  background-color: #FF6767;
+  color: white;
+}
+.scroll-content {
+  display: inline-block;
+  width: 50%;
+  
+  
 
+
+}
+#card-1 {
+  border-radius: 20px 0px 0px 20px;
+  border: 0px solid;
+  
+}
+#card-2 {
+  border-radius: 0px 0px 0px 0px;
+  border: 0px solid;
+  border-left: 1px  solid #2C394B;
+  border-right: 1px solid #2C394B;
+
+
+
+
+}
+#card-3 {
+  border-radius: 0px 20px 20px 0px;
+  border: 0px solid;
+  
+ 
+}
+.btn-1 {
+  border-bottom: 3px solid #f8361c;
+
+ 
+  
+}
 .container-2 {
- margin-top: 6rem;
+ margin-top: 5rem;
  position: relative; 
  width: 70%;
  left: 15%;
@@ -74,13 +125,19 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
  /* align-items: center; */
  grid-row-gap: 10vh;
  margin-bottom: 7.25rem;
+animation-name: cardanimation;
+animation-duration: 700ms;
+
  
 
 }
-.border {
 
- border-bottom: 5px solid rgb(40, 186, 223);
- padding-bottom: 10px; 
+
+.border {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  color: #334756;
+ font-size: 1.8rem;
+ padding-bottom: 0px; 
 
 
 }
@@ -239,4 +296,26 @@ background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0
 .footer {
   background-color: rgb(44, 43, 43);
   height: 40vh;
+}
+/* switch */
+
+
+.container-2 {
+  display: none !important;
+} 
+.show {
+  display: grid !important;
+} 
+
+
+
+@keyframes cardanimation {
+0% {
+  transform: translateY(60px);
+  opacity: 0.2;
+}
+100% {
+  transform: translateY(0px);
+  opacity: 1;
+}
 }
