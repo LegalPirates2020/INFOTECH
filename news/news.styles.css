@@ -148,18 +148,18 @@ section:nth-of-type(3) {
 	opacity: 1;
 }
 
-.hide{
+.hide1,
+.hide2,
+.hide3 {
 	display: none;
 }
 
-.learn-more {
-
-	position: relative;
+.learn-more1,.learn-more2,.learn-more3 {
+	position: absolute;
 	bottom: 2.5rem;
 	left: 50%;
 	transform: translateX(-50%);
 	outline: none;
-	
 }
 
 footer {
