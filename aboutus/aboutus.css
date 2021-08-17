@@ -26,7 +26,7 @@ section {
 }
 
 .title {
-  padding: 100px;
+  padding: 50px;
   font-family: 'Atkinson Hyperlegible', sans-serif;
   color: #334756;
  font-size: 4rem;
@@ -115,7 +115,7 @@ section {
   padding-bottom: 40px;
   text-align: center;
   font-size: 1rem;
-  line-height: 2.5rem;
+  line-height: 2.3rem;
 
   
 
@@ -126,7 +126,7 @@ section {
   padding-bottom: 30px;
   text-align: center;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.8rem;
   
 
 }
