@@ -12,8 +12,30 @@
 			<nav class="navbar">
 				<span>INFOTECH</span>
 				<ul class="navlink-container">
-					<li class="nav-link"><a href="./Homepage.html">Home</a></li>
+					<li class="nav-link"><a href="../Homepage/Homepage.html">Home</a></li>
 					<li class="nav-link"><a href="../courses/course.html">Courses</a></li>
+					<li class="nav-link news-li">
+						<a href="../news/news.html">News</a
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-6 w-6"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M19 9l-7 7-7-7"
+							/>
+						</svg>
+						<div class="news-dropdown">
+							<a href="./news.html#tech">TECH</a
+							><a href="./news.html#general">GENERAL</a
+							><a href="./news.html#cc">CARRIER COMPASS</a>
+						</div>
+					</li>
 					<li class="nav-link">
 						<a href="../faculty/faculty.html">Faculty</a>
 					</li>
@@ -26,10 +48,20 @@
 
 		<section class="hero">
 			<div class="banner"></div>
-			<div class="second-nav"></div>
+			<div class="second-nav">
+				<div>
+					<a href="#tech">TECH FEEDS<span></span><span></span></a>
+				</div>
+				<div>
+					<a href="#general">GENERAL FEEDS<span></span><span></span></a>
+				</div>
+				<div>
+					<a href="#cc">CARRIER COMPASS<span></span><span></span></a>
+				</div>
+			</div>
 		</section>
 
-		<section>
+		<section id="tech">
 			<h1>TECH FEEDS</h1>
 
 			<div class="feed-container">
@@ -90,7 +122,7 @@
 			</div>
 			<button class="learn-more1" onclick="handleClick1()">Load More</button>
 		</section>
-		<section>
+		<section id="general">
 			<h1>GENERAL FEED</h1>
 
 			<div class="feed-container">
@@ -152,7 +184,7 @@
 			<button class="learn-more2" onclick="handleClick2()">Load More</button>
 		</section>
 
-		<section>
+		<section id="cc">
 			<h1>CARRIER COMPASS</h1>
 
 			<div class="feed-container">
