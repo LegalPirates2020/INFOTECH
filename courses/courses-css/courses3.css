@@ -158,3 +158,31 @@
 		top: 75px;
 	}
 }
+
+@media screen and (max-width: 1600px) {
+	.grid {
+		height: 590px;
+		top: 140px;
+	}
+
+	.gridma {
+		height: 74%;
+		width: 64%;
+		position: relative;
+		top: -40px;
+	}
+
+	.flex1 {
+		width: 25%;
+		height: 75%;
+		position: relative;
+		display: flex;
+		top: -35px;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.heading3 {
+		top: 75px;
+	}
+}
