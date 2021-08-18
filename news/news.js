@@ -45,6 +45,6 @@ popup.addEventListener('click', () => {
 
 buttons.forEach((button) => {
 	button.addEventListener('click', (e) => {
-		e.stopPropagation(
+		e.stopPropagation()
 	});
 });
