@@ -183,6 +183,9 @@
 	text-align: center;
 	overflow: hidden;
 	position: relative;
+	border-radius: 10px;
+
+	box-shadow: 5px 2px 25px 0px rgba(0, 0, 0, 0.2);
 	height: 230px;
 	width: 300px;
 	margin: 0px 25px;
@@ -192,7 +195,7 @@
 .team-content {
 	color: #eeeeee;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
-	margin: 3rem 0 0rem 0;
+	margin: 20px 0 0rem 0;
 }
 .post {
 	padding-top: 10px;
@@ -222,6 +225,7 @@
 	display: block;
 	padding: 20px;
 	transition: all 200ms ease-in;
+	color: #334756;
 }
 .our-team .social li a:hover {
 	color: rgb(255, 255, 255);
@@ -231,19 +235,35 @@
 		position: relative;
 	}
 	.team {
+		padding-top: 60px;
 		position: relative;
 		display: grid;
 		grid-template-areas:
 			'team1 team2 team3'
 			'team4 team5 team6';
-		grid-row-gap: 30px;
-		grid-column-gap: 80px;
+		grid-row-gap: 40px;
+		grid-column-gap: 10px;
+
 		align-items: center;
 		top: 30%;
 		margin-top: 10%;
 		margin-bottom: auto;
 		justify-content: center;
 		justify-content: center;
+	}
+	.our-team {
+		background: #334756;
+		text-align: center;
+		overflow: hidden;
+		position: relative;
+		border-radius: 10px;
+
+		box-shadow: 5px 2px 25px 0px rgba(0, 0, 0, 0.2);
+		height: 200px;
+		width: 270px;
+		margin: 0px 25px;
+		padding: 30px;
+		box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
 	}
 	.team-title {
 		position: absolute;
@@ -263,5 +283,10 @@
 	}
 	.section-team {
 		padding-bottom: 650px;
+	}
+}
+@media screen and (max-height: 700px) {
+	.section-team {
+		padding-bottom: 700px;
 	}
 }
