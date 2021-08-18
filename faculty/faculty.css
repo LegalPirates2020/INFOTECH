@@ -51,11 +51,9 @@
 }
 .btn {
 	position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+	display: inline-flex;
 	width: 28vw;
-	height: 100%;
+	height: 40px;
 	left: 36vw;
 	right: 35vw;
 	margin-top: 2.5cm;
@@ -97,8 +95,8 @@
 	right: 15%;
 	/* display: grid; */
 	/* grid-template-areas: 
- "box1 box2 box3"
- "box4 box5 box6"; */
+	"box1 box2 box3"
+	"box4 box5 box6"; */
 	justify-items: center;
 	/* align-items: center; */
 	grid-row-gap: 10vh;
@@ -739,8 +737,8 @@
 		right: 10%;
 		/* display: grid; */
 		/* grid-template-areas: 
-    "box1 box2 box3"
-    "box4 box5 box6"; */
+	   "box1 box2 box3"
+	   "box4 box5 box6"; */
 		justify-items: center;
 		/* align-items: center; */
 		grid-row-gap: 10vh;
