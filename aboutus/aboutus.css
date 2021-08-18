@@ -4,11 +4,6 @@
 	box-sizing: border-box;
 }
 
-.container-scroll {
-	scroll-snap-type: y mandatory;
-	overflow-y: scroll;
-	height: 100vh;
-}
 section {
 	scroll-snap-align: start;
 }
@@ -90,7 +85,7 @@ section {
 }
 
 .xtra {
-	/* padding-top: 40px; */
+	margin-top: 40px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -102,7 +97,6 @@ section {
 .list {
 	/* font-family: 'Atkinson Hyperlegible', sans-serif; */
 
-	padding-top: 0px;
 	padding-bottom: 40px;
 	text-align: center;
 	font-size: 1rem;
@@ -118,10 +112,12 @@ section {
 }
 .flex-1 {
 	font-family: "Montserrat", sans-serif;
-
 	color: #334756;
-
 	width: 30vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
 }
 .flex-2 {
 	font-family: "Montserrat", sans-serif;
@@ -130,15 +126,14 @@ section {
 }
 /* our team */
 
- .team-title {
- 
-  position: relative;
-  top: 10%;
-  margin-bottom: 50px;
-  text-align: center;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  color: #5089C6 ;
- font-size: 3rem;
+.team-title {
+	position: relative;
+	top: 10%;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: "Atkinson Hyperlegible", sans-serif;
+	color: #5089c6;
+	font-size: 3rem;
 }
 
 .section-team {
@@ -146,13 +141,10 @@ section {
 	height: 100vh;
 }
 .team-flex-main {
- min-height: 80%;
- display: flex;
- align-items: center;
- justify-content: center;
-
-  
-
+	min-height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .grid1 {
 	grid-area: team1;
@@ -243,8 +235,7 @@ section {
 }
 
 @media (min-width: 1200px) {
-	.section-team
-	{
+	.section-team {
 		position: relative;
 	}
 	.team {
@@ -262,30 +253,27 @@ section {
 		justify-content: center;
 		justify-content: center;
 	}
-	.team-title
-	{
+	.team-title {
 		position: absolute;
 		width: 100%;
 		top: -20px;
 		padding: 50px;
 	}
 
-	.title, .title-2
+	.list
 	{
-		
-		margin: 0;
-		padding: 50px 0px 0px 0px;
+		line-height: 2rem;
 	}
-
-	.title-3, .title-4
+	.list-2
 	{
-		font-size: 35px;
-		width: 90%;
-		padding-top: 30px;
-		margin: 0;
+		line-height: 1.5rem;
 	}
-	.list-2, .list
+	.title
 	{
-		line-height: 28px;
+		padding-top: 100px;
+	}
+	.section-team
+	{
+		padding-bottom: 650px;
 	}
 }

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../styles.common.css">
     <link rel="stylesheet" href="./courses-css/courses1.css">
     <link rel="stylesheet" href="./courses-css/courses2.css">
     <link rel="stylesheet" href="./courses-css/courses3.css">
@@ -13,6 +14,31 @@
     <title>Courses</title>
 </head>
 <body>
+	<header class="nav-container">
+		<nav class="navbar">
+			<span>INFOTECH</span>
+			<ul class="navlink-container">
+				<li class="nav-link"><a href="../Homepage/Homepage.html">Home</a></li>
+				<li class="nav-link"><a href="../courses/course.html">Courses</a></li>
+				<li class="nav-link news-li">
+					<a href="../news/news.html">News</a><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+						fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+					</svg>
+					<div class="news-dropdown">
+						<a href="./news.html#tech">TECH</a><a href="./news.html#general">GENERAL</a><a
+							href="./news.html#cc">CARRIER COMPASS</a>
+					</div>
+				</li>
+				<li class="nav-link">
+					<a href="../faculty/faculty.html">Faculty</a>
+				</li>
+				<li class="nav-link">
+					<a href="../aboutus/aboutus.html">About Us</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
     <div class="container">
         <!-- first page -->
         <div class="web-development">
@@ -414,6 +440,12 @@
             </div>
         </section>
     </div>
+	<footer>
+		<img draggable="false" draggable="false" class="lp_logo" src="../Logo_5.png" alt="lp Logo" />
+		<a>Legal Pirates</a>
+		<p>InfoTech &copy 2021</p>
+	</footer>
     <script src="./course.js"></script>
+	<script src="../nav.js"></script>
 </body>
 </html>
