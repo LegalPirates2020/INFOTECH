@@ -22,7 +22,6 @@
 	text-align: center;
 }
 
-
 .title-2 {
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 	color: #334756;
@@ -234,11 +233,9 @@
 }
 
 @media (max-height: 800px) {
-
-	
 	.title-3 {
 		font-family: 'Anton', sans-serif;
-	
+
 		color: #005a8d;
 		font-size: 1.6rem;
 		padding: 60px 30px 60px 0rem;
@@ -254,13 +251,13 @@
 
 	.title {
 		padding: 40px;
-		
+
 		font-family: 'Atkinson Hyperlegible', sans-serif;
 		color: #334756;
 		font-size: 2rem;
 		text-align: center;
 	}
-	
+
 	.title-2 {
 		font-family: 'Atkinson Hyperlegible', sans-serif;
 		color: #334756;
@@ -295,12 +292,11 @@
 		position: relative;
 		border-radius: 10px;
 
-		box-shadow: 5px 2px 25px 0px rgba(0, 0, 0, 0.2);
 		height: 200px;
 		width: 270px;
 		margin: 0px 25px;
 		padding: 30px;
-		box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5);
 	}
 	.team-title {
 		position: absolute;
@@ -327,7 +323,7 @@
 		padding-bottom: 700px;
 	}
 }
-@media (max-width:1400px) {
+@media (max-width: 1400px) {
 	.title {
 		padding-top: 100px;
 		font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -340,12 +336,11 @@
 		font-size: 16px;
 		line-height: 2rem;
 	}
-	
 }
 @media (max-width: 1350px) {
 	.title-3 {
 		font-family: 'Anton', sans-serif;
-	
+
 		color: #005a8d;
 		font-size: 1.6rem;
 		padding: 20px 30px 60px 0rem;
@@ -373,7 +368,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
 }
 @media (max-width: 1250px) {
 	.content {
@@ -387,7 +381,7 @@
 	}
 	.title-3 {
 		font-family: 'Anton', sans-serif;
-	
+
 		color: #005a8d;
 		font-size: 1.4rem;
 		padding: 60px 30px 60px 0rem;
@@ -409,12 +403,11 @@
 		line-height: 1.4rem;
 		font-size: 14px;
 	}
-	
 }
 @media (max-width: 1150px) {
 	.title {
 		padding-top: 100px;
-		
+
 		font-family: 'Atkinson Hyperlegible', sans-serif;
 		color: #334756;
 		font-size: 2.5rem;
@@ -422,7 +415,7 @@
 	}
 	.title-3 {
 		font-family: 'Anton', sans-serif;
-	
+
 		color: #005a8d;
 		font-size: 1.4rem;
 		padding: 40px 30px 60px 0rem;
@@ -444,5 +437,4 @@
 		line-height: 1.4rem;
 		font-size: 14px;
 	}
-	
 }
