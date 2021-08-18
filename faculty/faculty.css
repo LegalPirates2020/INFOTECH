@@ -62,7 +62,7 @@ background: rgba(0, 0, 0,0.4);
   position: relative;
   display: inline-flex;
   width: 28vw;
-  height: 4vh;
+  height: 40px;
   left: 36vw;
   right: 35vw;
   margin-top: 2.5cm;
@@ -184,7 +184,7 @@ animation-duration: 700ms;
   color: white;
 }
 .box1{
- 
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   text-align: center;
   position: relative;
@@ -285,7 +285,7 @@ animation-duration: 700ms;
   min-width: 280px;
   background-color: #FE9898;
   transition: 300ms ease-in-out;
-  transition: 300ms ease-in-out;
+  
  
 }
 .box3{
@@ -307,9 +307,8 @@ animation-duration: 700ms;
  text-align: center;
  background-color: #8E2657;
  grid-area: box4;
- min-height: 320px;
- min-width: 280px;
-
+ min-height: 300px;
+ min-width: 260px;
  transition: 300ms ease-in-out;
 }
 .box5{
@@ -480,12 +479,16 @@ animation-duration: 700ms;
  
   transition: 300ms ease-in-out;
  }
-
+.eg {
+  margin-left: 20px;
+  font-size: 14px;
+}
 
 .img-container1 {
  margin-top: 2rem;
  margin-left: auto;
  margin-right: auto;
+ 
 
 
  background: url('https://www.citchennai.edu.in/wp-content/uploads/2019/08/Murugn-Photo.jpg') top/cover;
@@ -494,6 +497,7 @@ animation-duration: 700ms;
  position: relative;
  border-radius: 100%;
  z-index: 1;
+
 }
 .img-container2 {
   margin-top: 2rem;
@@ -732,10 +736,6 @@ animation-duration: 700ms;
   padding-right: 20px;
   padding-left: 20px;
   
- 
-  
-  
- 
  }
 .footer {
   background-color: rgb(44, 43, 43);
@@ -762,4 +762,270 @@ animation-duration: 700ms;
   transform: translateY(0px);
   opacity: 1;
 }
+}
+@media (max-height: 800px) {
+  .container-2 {
+    margin-top: 5rem;
+    position: relative; 
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    /* display: grid; */
+    /* grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box5 box6"; */
+    justify-items: center;
+    /* align-items: center; */
+    grid-row-gap: 10vh;
+    margin-bottom: 7.25rem;
+   animation-name: cardanimation;
+   animation-duration: 700ms;
+   
+    
+   
+   }
+  .box1{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box1;
+    height: 300px;
+    width: 260px;
+    background-color: #B980F0;
+    transition: 300ms ease-in-out;
+    
+   } 
+   .box2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    grid-area: box2;
+    height: 300px;
+    min-width: 260px;
+    background-color: #FE9898;
+    transition: 300ms ease-in-out;
+  }
+  .box3{
+   
+    font-size: 14px;
+   position: relative;
+   text-align: center;
+   background-color: #FFAA4C;
+   grid-area: box3;
+   min-height: 300px;
+   min-width: 260px;
+   
+   transition: 300ms ease-in-out;
+  }
+   .box4{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box4;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #8E2657;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+   position: relative;
+   text-align: center;
+   background-color: #00C1D4;
+   grid-area: box5;
+   min-height: 300px;
+   min-width: 260px;
+   
+   transition: 300ms ease-in-out;
+  }
+  .box6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+   position: relative;
+   text-align: center;
+   background-color: #7FC8A9;
+   grid-area: box6;
+   min-height: 300px;
+   min-width: 260px;
+  
+   transition: 300ms ease-in-out;
+  }
+  .eg {
+    margin-left: 5px;
+  }
+  .box7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    grid-area: box7;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #297F87;
+    transition: 300ms ease-in-out;
+    
+  }
+   .box8{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box8;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #96BAFF;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box9{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box9;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #D54C4C;
+    transition: 300ms ease-in-out;
+    
+   }
+
+   .box10{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box10;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #F08FC0;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box11{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box11;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #4C4C6D;
+    transition: 300ms ease-in-out;
+    
+   }
+
+   .box12{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box12;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #185ADB;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box13{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box13;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #865439;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box14{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box14;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #39A2DB;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box15{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box15;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #C490E4;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box16{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box16;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #01937C;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box17{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box17;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #867AE9;
+    transition: 300ms ease-in-out;
+    
+   }
+   .box18{
+ 
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    grid-area: box18;
+    min-height: 300px;
+    min-width: 260px;
+    background-color: #F9B208;
+    transition: 300ms ease-in-out;
+    
+   }
+   .details {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+   
+    width: 100%;
+    bottom: 0;
+    height: 200px;      
+    background-color: white;
+    z-index: 0;
+    transition: all 400ms ease-out ;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+   }
+   .btn {
+     height: 30px;
+   }
+   
+  
+  
 }
