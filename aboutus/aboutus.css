@@ -130,14 +130,15 @@ section {
 }
 /* our team */
 
-.team-title {
-	position: relative;
-	top: 10%;
-	margin-bottom: 50px;
-	text-align: center;
-	font-family: "Atkinson Hyperlegible", sans-serif;
-	color: #5089c6;
-	font-size: 3rem;
+ .team-title {
+ 
+  position: relative;
+  top: 10%;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  color: #5089C6 ;
+ font-size: 3rem;
 }
 
 .section-team {
@@ -145,10 +146,13 @@ section {
 	height: 100vh;
 }
 .team-flex-main {
-	min-height: 80%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+ min-height: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+  
+
 }
 .grid1 {
 	grid-area: team1;
