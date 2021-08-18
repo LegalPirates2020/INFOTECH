@@ -71,6 +71,7 @@
     transition: all 1s ease-in-out;
     overflow: hidden;
     position: relative;
+
 }
 
 .ai:hover
@@ -79,6 +80,7 @@
     animation: none;
     height: 70%;    
     padding: 35px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .ai::after
@@ -233,5 +235,5 @@
 
 .neuralnetworks:hover
 {
-    background: url(https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/00057fa0-c21f-4268-b167-a43bdc3ef007/Rendition/low-res/Content/Public) center/contain;
+    background: url(https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/01/Neural_Networks_2880x1620.jpg) center/contain;
 }

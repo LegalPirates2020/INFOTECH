@@ -46,21 +46,20 @@ window.addEventListener('scroll', () => {
 // });
 
 const parallax = (args, e) => {
-  args.forEach((arg) => {
-    let speed = arg.getAttribute("data-speed");
-    const x = (e.pageX * speed) / 100;
-    const y = (e.pageY * speed) / 100;
-    arg.style.transform = `translateX(${x}px) translateY(${y}px)`;
-  });
+	args.forEach((arg) => {
+		let speed = arg.getAttribute('data-speed');
+		const x = (e.pageX * speed) / 100;
+		const y = (e.pageY * speed) / 100;
+		arg.style.transform = `translateX(${x}px) translateY(${y}px)`;
+	});
 };
-hero.addEventListener("mousemove", (e) => {
-  parallax(layers, e);
-  parallax(words, e);
-  const x = (e.pageX * 1) / 100;
-  const y = (e.pageY * 1) / 100;
-  IT.style.transform = `translateX(${x}px) translateY(${y}px) scale(14)`;
+hero.addEventListener('mousemove', (e) => {
+	parallax(layers, e);
+	parallax(words, e);
+	const x = (e.pageX * 1) / 100;
+	const y = (e.pageY * 1) / 100;
+	IT.style.transform = `translateX(${x}px) translateY(${y}px) scale(14)`;
 });
-
 
 function gridsystem(n) {
 	for (let i = 1; i <= grids.length; i++) {
@@ -80,7 +79,7 @@ cards.forEach((card) => {
 			case 'grid1':
 				card.classList.add('gridhover');
 				gridsystem(1);
-        console.log(cardid)
+				console.log(cardid);
 				break;
 			case 'grid2':
 				card.classList.add('gridhover');
