@@ -22,29 +22,6 @@ window.addEventListener('scroll', () => {
 	iffalse();
 });
 
-// Menu
-
-// function iftrue() {
-// 	menu.classList.add('open');
-// 	nav_container.style.top = '0';
-// 	menuopen = true;
-// }
-// function iffalse() {
-// 	menu.classList.remove('open');
-// 	nav_container.style.top = '-150vh';
-// 	menuopen = false;
-// }
-// menu.addEventListener('click', () => {
-// 	if (!menuopen) {
-// 		iftrue();
-// 	} else {
-// 		iffalse();
-// 	}
-// });
-// nav_container.addEventListener('click', () => {
-// 	iffalse();
-// });
-
 const parallax = (args, e) => {
 	args.forEach((arg) => {
 		let speed = arg.getAttribute('data-speed');
@@ -66,7 +43,6 @@ function gridsystem(n) {
 		if (i == n) {
 			continue;
 		} else {
-			console.log(grids[i]);
 			grids[i - 1].classList.add('grid11');
 		}
 	}
@@ -79,7 +55,6 @@ cards.forEach((card) => {
 			case 'grid1':
 				card.classList.add('gridhover');
 				gridsystem(1);
-				console.log(cardid);
 				break;
 			case 'grid2':
 				card.classList.add('gridhover');

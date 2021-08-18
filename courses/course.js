@@ -24,22 +24,6 @@ mobile(pegama, pega);
 mobile(flutterma, flutter);
 mobile(dartma, dart);
 
-// img3.addEventListener('mouseenter',()=>{
-//     side.classList.add('frontside')
-// })
-
-// img3.addEventListener('mouseleave',()=>{
-//     side.classList.remove('frontside')
-// })
-
-// img4.addEventListener('mouseenter',()=>{
-//     side.classList.remove('backside')
-// })
-
-// img4.addEventListener('mouseleave',()=>{
-//     side.classList.remove('backside')
-// })
-
 const mainside = document.querySelector(".mainside");
 const firstside = document.querySelector(".firstside");
 const secondside = document.querySelector(".secondside");
@@ -71,24 +55,12 @@ img3.addEventListener("mouseleave", () => {
 	mainside.classList.remove("backside");
 });
 img4.addEventListener("mouseenter", () => {
-	// mainside.style.opacity = "0"
 	mainside.classList.add("backside");
 });
 img4.addEventListener("mouseleave", () => {
 	mainside.style.opacity = "1";
 	mainside.classList.remove("backside");
 });
-
-// const contentai = document.querySelectorAll(".contentai")
-// const ai = document.querySelectorAll(".ai")
-// // const bargraph = document.querySelector(".bargraph")
-// contentai.forEach(element => {
-//     element.addEventListener("mouseenter", ()=> {
-//         contentai.classList.add("contentai2")
-
-//     })
-// });
-// console.log(contentai);
 
 const contentai = document.querySelectorAll(".contentai");
 const ai = document.querySelectorAll(".ai");

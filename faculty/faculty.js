@@ -15,7 +15,6 @@ const box6 = document.querySelector('.box6');
 
 scrollContent.forEach(element => {
   element.addEventListener('click', function content() {
-    // scrollContent.forEach(content => content.classList.remove('animation'));
    
     
     cardContent.forEach(content => {content.classList.remove('show')
