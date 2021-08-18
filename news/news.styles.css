@@ -140,6 +140,7 @@ section:nth-of-type(3) {
 	position: relative;
 	overflow: hidden;
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+	cursor: pointer;
 }
 
 .feed-container div::after {
@@ -179,7 +180,7 @@ section:nth-of-type(3) {
 	font-size: 16px;
 	cursor: pointer;
 	text-decoration: none;
-	z-index: 2;
+	z-index: 10;
 }
 
 .button:hover {
@@ -367,6 +368,7 @@ section:nth-of-type(3) {
 	justify-content: center;
 	z-index: 6;
 	display: none;
+	cursor: pointer;
 }
 
 .popup img {
