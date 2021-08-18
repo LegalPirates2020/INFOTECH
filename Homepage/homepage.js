@@ -17,11 +17,6 @@ const menu = document.querySelector('.menu');
 const nav_container = document.querySelector('.nav-container');
 let menuopen = false;
 
-window.addEventListener('scroll', () => {
-	let scroll = window.scrollY;
-	iffalse();
-});
-
 const parallax = (args, e) => {
 	args.forEach((arg) => {
 		let speed = arg.getAttribute('data-speed');
