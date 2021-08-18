@@ -7,6 +7,7 @@ const learnMore3 = document.querySelector('.learn-more3');
 const cards = document.querySelectorAll('.card');
 const body = document.querySelector('body');
 const popup = document.querySelector('.popup');
+const buttons = document.querySelectorAll('.button');
 
 const handleClick1 = () => {
 	hides1.forEach((hide) => {
@@ -40,4 +41,10 @@ cards.forEach((card) => {
 popup.addEventListener('click', () => {
 	popup.style.display = 'none';
 	body.style.overflow = 'auto';
+});
+
+buttons.forEach((button) => {
+	button.addEventListener('click', (e) => {
+		e.stopPropagation()
+	});
 });
