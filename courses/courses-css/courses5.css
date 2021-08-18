@@ -94,3 +94,13 @@
     background-color: #305EA1;
     z-index: 5;
 }
+
+@media screen and (max-width:1200px){
+    .heading5{
+        margin: 77px auto;
+    }
+
+    .pagedocker:hover {
+        height: 50%;
+    }
+}

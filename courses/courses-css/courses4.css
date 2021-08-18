@@ -23,13 +23,13 @@
 	width: 73%;
 	font-size: 30px;
 	line-height: 50px;
-	background: linear-gradient(#FF9671, #FF6F91, #FFC75F);
+	background: linear-gradient(#ff9671, #ff6f91, #ffc75f);
 }
 .side1 {
 	position: absolute;
 	width: 100%;
 	margin: 45px 10px 10px 50px;
-	background: linear-gradient(#FF9671, #FF6F91, #FFC75F);
+	background: linear-gradient(#ff9671, #ff6f91, #ffc75f);
 	padding: 30px;
 	text-align: center;
 	border-radius: 10px;
@@ -37,10 +37,9 @@
 	z-index: 99999;
 }
 
-.side1 h2{
+.side1 h2 {
 	margin-bottom: 10px;
 }
-
 
 .mainside {
 	transform: rotateX(0deg);
@@ -59,4 +58,17 @@
 
 .backside {
 	transform: rotateX(-180deg);
+}
+
+@media screen and (max-width: 1200px) {
+	.side {
+		top: 80px;
+		width: 66%;
+	}
+
+	.imagesidebar {
+		float: right;
+		position: relative;
+		top: 155px;
+	}
 }
