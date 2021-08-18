@@ -4,6 +4,10 @@
     color: #fff;
     z-index: 150000;
 }
+.nav-link
+{
+    background-color: inherit;
+}
 .news-dropdown
 {
     background: linear-gradient(45deg, #008AC2, #009EFA,#3596B5);
