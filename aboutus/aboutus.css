@@ -2,15 +2,48 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	letter-spacing: 1px;
 }
 
 .header {
-	min-height: 100vh;
+	min-height: 85vh;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 	color: #334756;
+	background-color: #f4f3f1;
 	text-align: left;
-	background-color: #fafafa;
 	z-index: 0;
+}
+
+.hero {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 50vh;
+}
+
+.banner {
+	width: 100%;
+	height: 50vh;
+	background: url('https://www.citchennai.edu.in/wp-content/themes/cit/images/profile-bg.jpg')
+		center/cover;
+}
+
+.banner::after {
+	width: 100%;
+	height: 50vh;
+	content: '';
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.title span {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: ghostwhite;
+    font-size: 40px;
 }
 
 .title {
@@ -48,6 +81,7 @@
 	padding-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: justify;
 }
 /* .header::after {
 	
@@ -87,7 +121,7 @@
 	align-items: center;
 	z-index: 0;
 	min-height: 100vh;
-	background-color: #77acf1;
+	background-color: #d8ebef;
 }
 
 .list {
@@ -227,6 +261,7 @@
 	padding: 20px;
 	transition: all 200ms ease-in;
 	color: #334756;
+	text-decoration: none;
 }
 .our-team .social li a:hover {
 	color: rgb(255, 255, 255);
@@ -250,7 +285,7 @@
 	}
 
 	.title {
-		padding: 40px;
+		padding: 0px;
 
 		font-family: 'Atkinson Hyperlegible', sans-serif;
 		color: #334756;
@@ -312,7 +347,7 @@
 		line-height: 1.5rem;
 	}
 	.title {
-		padding-top: 100px;
+		padding-top: 40px;
 	}
 	.section-team {
 		padding-bottom: 650px;

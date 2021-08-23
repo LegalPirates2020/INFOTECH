@@ -120,6 +120,17 @@
 	width: 25%;
 }
 
+.main a {
+	text-decoration: none;
+}
+
+.main a p {
+	margin-left: -10px;
+	margin-top: 10px;
+	color: whitesmoke;
+	text-align: center;
+}
+
 .courses-container {
 	height: 80vh;
 	display: flex;
@@ -250,7 +261,7 @@ footer {
 }
 
 .grid11 {
-	filter: blur(10px);
+	filter: blur(4px);
 	transform: scale(0.9);
 	opacity: 0.7;
 	box-shadow: -13px 14px 25px 5px rgba(0, 0, 0, 0.75);
@@ -442,7 +453,7 @@ footer {
 		width: 35%;
 	}
 
-	.button{
+	.button {
 		padding: 12px 20px;
 	}
 
