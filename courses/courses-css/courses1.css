@@ -112,8 +112,12 @@ body {
 	opacity: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
 	.grid {
 		height: 70%;
+	}
+	.container
+	{
+		display: none;
 	}
 }
