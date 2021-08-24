@@ -9,7 +9,7 @@
 }
 
 .nav-container {
-	background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
 }
 
 .news-dropdown {
@@ -17,7 +17,8 @@
 }
 
 .hero {
-	background: linear-gradient(200deg, #59c173, #a17fe0, #5d26c1);
+	background: linear-gradient(300deg, #00f260, #0575e6);;
+	/* background: linear-gradient(200deg, #59c173, #a17fe0, #5d26c1); */
 	background-position: bottom left;
 	height: 100vh;
 	position: relative;
