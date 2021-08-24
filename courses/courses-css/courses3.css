@@ -194,6 +194,7 @@
 		display: grid;
 		grid-template-rows: 1fr 1fr 1fr;
 		grid-template-columns: 1fr 1fr 1fr;
+		top: 0%;
 	}
 	.imagema {
 		background-size: cover;
